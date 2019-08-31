@@ -3,12 +3,13 @@
 
     
      <section id="slider-part" class="slider-active ">
-        <div class="single-slider bg_cover pt-150" style="background-image: url(images/slider/s-1.jpg)" data-overlay="4">
+        <div class="single-slider bg_cover pt-150" style="background-image: url(images/slider/slider1.png)" data-overlay="4">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7 col-lg-10">
+                    <div class="col-xl-8 col-lg-8">
                         <div class="slider-cont">
-                            <h1 data-animation="fadeInLeft" data-delay="1s">Choose the right College for education</h1>
+						<h1 >Choose the right <br> <span class="txt-rotate" style="color:#222" data-period="2000" data-rotate='[  "College for Best education.", "course for best feature." ]'></span></h1>
+                           
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                           
                             <ul>
@@ -21,40 +22,7 @@
             </div> <!-- container -->
         </div> <!-- single slider -->
            
-        <div class="single-slider bg_cover pt-150" style="background-image: url(images/slider/s-3.jpg)" data-overlay="4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-10">
-                        <div class="slider-cont">
-                            <h1 data-animation="fadeInLeft" data-delay="1s">Choose the right Event  for education</h1>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                            
-                            <ul>
-                          
-                                <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn" href="#">Apply Now</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- single slider -->
-        <div class="single-slider bg_cover pt-150" style="background-image: url(images/slider/s-2.jpg)" data-overlay="4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-9">
-                        <div class="slider-cont">
-                            <h1 data-animation="fadeInLeft" data-delay="1s">Choose the right Workshop for education</h1>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                      
-                            <ul>
-                            
-                                <li><a data-animation="fadeInUp" data-delay="1.9s" class="main-btn" href="#">Apply Now</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div> <!-- single slider -->
+  
     </section>
  
     
@@ -110,12 +78,52 @@
             <img src="images/about/bg-1.png" alt="About">
         </div>
     </section>
+	<section class=" bg-f5f5f5 py-4" >
+        <div class="container levels-section">
+            <div class="row">
+			<div class="col-md-12 text-center mt-3 mb-5">
+				  <h3>LEVELS EXPLAINED</h3>
+			</div>
+			<div class="col-md-4">
+				<div class="card p-3 card-hover">
+				<div class="py-2 text-center">
+				<img src="images/leavel1.png">
+					<h4 class="text-center">Bachelor's</h4>
+				</div>
+				<p>A bachelor's degree (also called a first degree or undergraduate degree) is attained after receiving a post-secondary (high school) education and generally spans four years. Students pursuing these types of degrees are commonly referred to as bachelor or undergraduate students. A bachelor's degree is usually offered at an institution of higher education, such as a university.</p>
+				</div>
+
+			</div>
+			<div class="col-md-4">
+					<div class="card p-3 card-hover">
+				<div class="py-2 text-center">
+				<img src="images/leavel2.png">
+					<h4 class="text-center">Master's</h4>
+				</div>
+				
+				<p>A master’s degree (or postgraduate or graduate education) involves learning and studying for academic or professional degrees. This degree is preceded by a bachelor’s degree and generally takes two years to complete. Students pursuing these types of degrees are commonly referred to as master's, or grad students.</p>
+				
+			</div>
+			</div>
+			<div class="col-md-4">
+			<div class="card p-3 card-hover">
+				<div class="py-2 text-center">
+				<img src="images/leavel3.png">
+					<h4 class="text-center">Pathway</h4>
+				</div>
+			
+				<p>Bachelor’s and master’s pathway programs are designed for international students who need additional English language and academic preparation before continuing to a degree program at a university. The purpose of these programs are to give students the confidence and skills needed to succeed in college.</p>
+				
+				</div>
+				</div>
+            </div>
+        </div> 
+      <div class="clearfix">&nbsp;</div>
+    </section>
     
-    <!--====== ABOUT PART ENDS ======-->
-   
-    <!--====== APPLY PART START ======-->
+
     
-    <section id="apply-aprt" class="pb-20 apply-color-1">
+    <section id="apply-aprt" class="pb-20 apply-color-1 mt-100">
         <div class="container">
             <div class="apply apply-color-strip">
                 <div class="row no-gutters">
@@ -172,219 +180,199 @@
 
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-               <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-1.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                        <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+				
+				  <div class="You-makelike ">
+				
+					<div class="single-makelike mt-20">
+					
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
+			
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                 <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                        <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                        <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+               <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+					<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                        <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+              <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                 <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                 <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+              <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-               <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+               <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                 <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                 <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                 <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                 <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+              <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                 <div class="single-course">
-                        <div class="thum">
-                            <div class="image">
-                                <img src="images/course/cu-2.jpg" alt="Course">
-                            </div>
-                           
-                        </div>
-                         <div class="cont">
-                            <a href="#"><h4>Learn basic javascript from start for beginner | 11 Months</h4></a>
-							<p>Become a Data Scientist and learn how Uber bridges its supply-demand gap and lots more</p>
-                            <div class="course-teacher text-center">
-                               <a href="program-details.php" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+               <div class="You-makelike ">
+					<div class="single-makelike mt-20">
+						<div class="image">
+							<img src="images/your-make/y-1.jpg" alt="Image">
+						</div>
+						<div class="cont text-center">
+							<h4>Introduction to machine languages</h4>
+							<ul>
+								<a href="#"><li><div class="btn btn-primary">Know More</div></li>	</a>
+							</ul>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
           
@@ -395,30 +383,25 @@
     <div id="counter-part" class="bg_cover pt-65 pb-110" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="single-counter text-center mt-40">
                         <span><span class="counter">30,000</span>+</span>
                         <p>Students enrolled</p>
                     </div> <!-- single counter -->
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="single-counter text-center mt-40">
                         <span><span class="counter">41,000</span>+</span>
                         <p>Courses Uploaded</p>
                     </div> <!-- single counter -->
                 </div>
-                <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-4 col-sm-6">
                     <div class="single-counter text-center mt-40">
                         <span><span class="counter">11,000</span>+</span>
                         <p>People certificate</p>
                     </div> <!-- single counter -->
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-counter text-center mt-40">
-                        <span><span class="counter">39,000</span>+</span>
-                        <p>Global Teachers</p>
-                    </div> <!-- single counter -->
-                </div>
+                
             </div> <!-- row -->
         </div> <!-- container -->
     </div>
@@ -666,7 +649,7 @@
                 </div>
             </div> <!-- row -->
            <div class="row">
-               <div class="col-lg-6">
+               <div class="col-lg-4">
                    <div class="single-blog mt-30">
                        <div class="blog-thum">
                            <img src="images/blog/b-1.jpg" alt="Blog">
@@ -686,7 +669,7 @@
                    </div> <!-- single blog -->
                  
                </div> 
-			   <div class="col-lg-6">
+			   <div class="col-lg-4">
              
                    <div class="single-blog mt-30">
                        <div class="blog-thum">
@@ -707,7 +690,26 @@
                    </div> <!-- single blog -->
        
                </div>
-              
+               <div class="col-lg-4">
+                   <div class="single-blog mt-30">
+                       <div class="blog-thum">
+                           <img src="images/blog/b-1.jpg" alt="Blog">
+                       </div>
+                       <div class="blog-cont">
+                           <a href="blog-single.html"><h3>Few tips for get better results in examination</h3></a>
+                           <ul>
+                               <li><a href="#"><i class="fa fa-calendar"></i>25 Dec 2018</a></li>
+                               <li><a href="#"><i class="fa fa-user"></i>Mark anthem</a></li>
+                               <li><a href="#"><i class="fa fa-tags"></i>Education</a></li>
+                           </ul>
+                           <p>Lorem ipsum gravida nibh vel velit auctor aliquetn sollicitudirem quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus .</p>
+						   <div class="pt-4">
+							<button class="btn btn-primary">Read More</button>
+						   </div>
+                       </div>
+                   </div> <!-- single blog -->
+                 
+               </div> 
            </div> <!-- row -->
         </div> <!-- container -->
     </section>
@@ -815,11 +817,69 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </div> 
-   
+      <?php include("footer.php"); ?>
    
 
-   <?php include("footer.php"); ?>
+
    <script>
+ var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+   </script>
+     <script>
   $(document).ready(function(){
 
     $(".filter-button").click(function(){

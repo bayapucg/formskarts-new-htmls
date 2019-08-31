@@ -2653,14 +2653,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
 	color: #fff;
-	background-color: #007bff;
-	border-color: #007bff
+	    background-image: linear-gradient(120deg, #f7415f, #fe734e);
 }
 
 .btn-primary:hover {
 	color: #fff;
-	background-color: #0069d9;
-	border-color: #0062cc
+	    background-image: linear-gradient(120deg, #fe734e, #f7415f);
 }
 
 .btn-primary.focus,
@@ -3986,7 +3984,7 @@ input[type=submit].btn-block {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	background-color: #dee2e6
+	background-color: #fff
 }
 
 .custom-control-label::after {
@@ -4035,7 +4033,7 @@ input[type=submit].btn-block {
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::before {
-	background-color: #007bff
+	background-color: #f84a5c
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-label::after {
@@ -6672,7 +6670,7 @@ button.close {
 .carousel-caption {
 	position: absolute;
 	right: 15%;
-	bottom: 20px;
+	top: 50%;
 	left: 15%;
 	z-index: 10;
 	padding-top: 20px;

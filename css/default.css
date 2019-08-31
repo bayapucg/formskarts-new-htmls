@@ -899,7 +899,17 @@
 [data-overlay] {
 	position: relative;
 }
-[data-overlay]::before {
+#testimonial[data-overlay]::before {
+background: rgba(0,0,0,0.75) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+#counter-part[data-overlay]::before {
 background: rgba(0,0,0,0.75) none repeat scroll 0 0;
 	content: "";
 	height: 100%;

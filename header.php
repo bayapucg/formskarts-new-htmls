@@ -37,6 +37,8 @@
     
     <!--====== Fontawesome css ======-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     
     <!--====== Default css ======-->
     <link rel="stylesheet" href="css/default.css">
@@ -99,7 +101,7 @@
                                         <a href="#">How we help</a>
                                     </li> 
 									<li class="nav-item">
-                                        <a href="#">Schools</a>
+                                        <a href="schools.php">Schools</a>
                                     </li> 
                                     <li class="nav-item">
                                         <a href="#">Study Abroad</a>

@@ -22,8 +22,8 @@
     <!--====== Animate css ======-->
     <link rel="stylesheet" href="css/animate.css">
     
-    <!--====== Nice Select css ======-->
-    <link rel="stylesheet" href="css/nice-select.css">
+    <!--====== Nice Select css
+    <link rel="stylesheet" href="css/nice-select.css"> ======-->
     
     <!--====== Nice Number css ======-->
     <link rel="stylesheet" href="css/jquery.nice-number.min.css">
@@ -55,22 +55,7 @@
 
 <body style="background-image: url('images/body-bg.png')">
    
-    <!--====== PRELOADER PART START ======-->
-
-    <div class="preloader">
-        <div class="loader rubix-cube">
-            <div class="layer layer-1"></div>
-            <div class="layer layer-2"></div>
-            <div class="layer layer-3 color-1"></div>
-            <div class="layer layer-4"></div>
-            <div class="layer layer-5"></div>
-            <div class="layer layer-6"></div>
-            <div class="layer layer-7"></div>
-            <div class="layer layer-8"></div>
-        </div>
-    </div>
-
-    <!--====== PRELOADER PART START ======-->
+  
     
     <!--====== HEADER PART START ======-->
     
@@ -98,13 +83,13 @@
                                       
                                     </li>
                                   <li class="nav-item">
-                                        <a href="#">How we help</a>
+                                        <a href="howwehelp.php">How we help</a>
                                     </li> 
 									<li class="nav-item">
                                         <a href="schools.php">Schools</a>
                                     </li> 
                                     <li class="nav-item">
-                                        <a href="#">Study Abroad</a>
+                                        <a href="study-abroad.php">Study Abroad</a>
                                         <ul class="sub-menu">
                                             <li><a href="#">Upskill</a></li>
                                             <li><a href="#">Own a Franchise</a></li>
@@ -118,7 +103,7 @@
                                             <li><a href="#">Online Power Learning</a></li>
                                             <li><a href="#">Xchange</a></li>
                                             <li><a href="#">BaseCamp</a></li>
-                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="blog.php">Blog</a></li>
                                         </ul>
                                     </li>
 									<li class="nav-item">

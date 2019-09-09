@@ -4634,3 +4634,34 @@ height: 70px;
         display: table-cell;
         vertical-align: middle;
       }
+	  .blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.box-sad{
+	-webkit-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.73);
+-moz-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.73);
+box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.73);
+}
+.border-radius-50 img{
+	border-radius:50%;
+	height:150px;
+	width:150px;
+	margin:0 auto;
+	border:2px solid #ddd;
+}
+.student-slide-fo h4{
+font-size:16px !important;
+font-weight:bold !important;
+}
+.text-just{
+	text-align:justify;
+}
+.single-blog-img img{
+	width:100%;
+}

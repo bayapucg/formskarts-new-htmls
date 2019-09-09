@@ -10,12 +10,12 @@
                                 <a href="#"><img src="images/logo-2.png" alt="Logo"></a>
                             </div>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <ul class="mt-20">
+                           <!-- <ul class="mt-20">
                                 <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
+                            </ul>-->
                         </div> <!-- footer about -->
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
@@ -122,6 +122,7 @@
 
     <!--====== Bootstrap js ======-->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
     
     <!--====== Slick js ======-->
@@ -134,8 +135,8 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     
-    <!--====== Nice Select js ======-->
-    <script src="js/jquery.nice-select.min.js"></script>
+    <!--====== 
+    <script src="js/jquery.nice-select.min.js"></script> ======-->
     
     <!--====== Nice Number js ======-->
     <script src="js/jquery.nice-number.min.js"></script>

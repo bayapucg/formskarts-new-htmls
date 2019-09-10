@@ -1,5 +1,77 @@
-
-
+.single-teachers .cont-cus {
+	
+	bottom:20% !important;
+}
+.custom-ul li{
+	list-style-type:disc;
+	font-size:13px;
+	margin-top:5px;
+}
+ .ff_faqs {
+     margin:20px auto;
+     max-width:100%;
+     padding:50px;
+}
+ .ff_faq_header :first-child {
+     margin-top:0;
+}
+ .ff_faq_header {
+     position:relative;
+     display:block;
+     width:100%;
+     background:transparent;
+     border-top:1px solid #e5eff5;
+     border-bottom:1px solid #e5eff5;
+     border-radius:0;
+     padding:20px;
+     font-size:20px;
+     text-decoration:none;
+     color:#333;
+     margin-top:-1px;
+     text-align:left;
+     font-weight:500;
+}
+ .ff_faq_header:hover, .ff_faq_header:focus {
+     border-top:1px solid #e5eff5;
+     border-bottom:1px solid #e5eff5;
+     color:#333;
+     text-decoration:none;
+}
+ .ff_faq_header[aria-expanded="true"] {
+     background:#fff;
+     border-bottom:none;
+     border-right:1px solid #e5eff5;
+     border-left:1px solid #e5eff5;
+}
+ .ff_faq_header[aria-expanded="false"]:hover {
+     color:red;
+}
+ .ff_faq_header[aria-expanded="true"]:after {
+     display:block;
+     content: "\f106";
+     position:absolute;
+     right:20px;
+     top:13px;
+     font-family:FontAwesome;
+     font-size:30px;
+}
+ .ff_faq_header[aria-expanded="false"]:after {
+     display:block;
+     content: "\f107";
+     position:absolute;
+     right:20px;
+     top:15px;
+     font-family:FontAwesome;
+     font-size:30px;
+}
+ .ff_faq_item {
+     background:#fff;
+     padding:0 20px 40px 20px;
+     border-right:1px solid #e5eff5;
+     border-left:1px solid #e5eff5;
+     color:#999;
+     font-size:17px;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700');
 

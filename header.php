@@ -79,7 +79,7 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="active" href="#">Home</a>
+                                        <a class="active" href="index.php">Home</a>
                                       
                                     </li>
                                   <li class="nav-item">
@@ -98,13 +98,8 @@
                                         </ul>
                                     </li>
 									<li class="nav-item">
-                                        <a href="#">Events</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Online Power Learning</a></li>
-                                            <li><a href="#">Xchange</a></li>
-                                            <li><a href="#">BaseCamp</a></li>
-                                            <li><a href="blog.php">Blog</a></li>
-                                        </ul>
+                                        <a href="events.php">Events</a>
+                                      
                                     </li>
 									<li class="nav-item">
                                         <a href="#">Scholarships</a>

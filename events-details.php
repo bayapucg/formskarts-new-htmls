@@ -144,6 +144,7 @@
 								<div id="ff_item_3" class="collapse" data-parent="#accordion">
 									<hr>
 									<div class="ff_faq_item">
+									<a href="events-single.php">
 										<div class="row">
 										<div class="col-md-4">
 											<div class="row">
@@ -151,12 +152,12 @@
 												<img  src="https://www.topmba.com/sites/default/files/styles/authorship/public/events/cites/buenos_aires_mba_tour.jpg?itok=kWPl2xQV">
 											</div>
 											<div class="col-md-8">
-												<h5><a href="">Buenos Aires</a></h5>
+												<h5>Buenos Aires</h5>
 												<div>
 													<small>09th September 2019</small>
 												</div>
 											</div>
-											</div>
+											</div></a>
 										</div>
 										<div class="col-md-4">
 											<div class="row">

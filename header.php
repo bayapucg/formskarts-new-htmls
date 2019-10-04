@@ -102,10 +102,10 @@
                                       
                                     </li>
 									<li class="nav-item">
-                                        <a href="#">Scholarships</a>
+                                        <a href="scholarships.php">Scholarships</a>
                                     </li> 
 									<li class="nav-item">
-                                        <a href="#">Student Loan</a>
+                                        <a href="student-loan.php">Student Loan</a>
                                     </li> 
 									<li class="nav-item">
                                         <a href="contact.php"> Contact Us</a>

@@ -6,7 +6,7 @@
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
   </ul>-->
-  <div class="carousel-inner">
+  <div class="carousel-inner slider-help">
     <div class="carousel-item active">
       <img src="images/how-its-help.jpg" alt="Los Angeles" >
       <div class="carousel-caption">

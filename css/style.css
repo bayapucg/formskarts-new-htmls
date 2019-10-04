@@ -953,7 +953,10 @@ box-shadow: 0px 5px 22px -10px rgba(0,0,0,0.75);
 ======================================================*/
 
 .single-slider{
-    padding-bottom: 300px;
+    padding: 50px  ;
+	max-height:400px;
+	height:400px;
+	overflow:hidden;
 }
 
 .slider-cont{
@@ -965,9 +968,13 @@ box-shadow: 0px 5px 22px -10px rgba(0,0,0,0.75);
     font-size: 40px;
 font-family: 'Candal', sans-serif;
     font-weight: 700;
-    color: #f7415f;
+    color: #fff;
     padding-bottom: 25px;
-	line-height:60px
+	line-height:60px;
+	-webkit-text-stroke-width: 0.2px;
+   -webkit-text-stroke-color: #555;
+   text-align:center;
+	
 	
 }
 .slider-cont p{
@@ -1502,9 +1509,7 @@ font-family: 'Candal', sans-serif;
     overflow: hidden;
 	    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
-.single-course > .thum{
-    position: relative;
-}
+
 .single-course .thum .image{
     overflow: hidden;
 }
@@ -1512,6 +1517,8 @@ font-family: 'Candal', sans-serif;
     width: 100%;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
+	height:250px;
+	overflow:hidden;
 }
 .single-course:hover .thum .image img{
     -webkit-transform: scale(1.1);
@@ -4736,4 +4743,151 @@ font-weight:bold !important;
 }
 .single-blog-img img{
 	width:100%;
+}
+.how-it-work {
+	margin-bottom: 60px;
+	position: relative;
+	margin-left:170px;
+}
+.main-how-it {
+	position: absolute;
+    top: 155px;
+    left: -272px;
+    background: #f6f6f6;
+    width: 400px;
+    height: 79px;
+    transform: rotate(-90deg);
+    border-radius: 50px;
+	box-shadow: 0px 2px 11px -2px rgba(0,0,0,0.4);
+}
+.main-how-it h4 {
+	font-size: 30px;
+	padding-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color:#78c043;
+	font-weight: 800;
+}
+.bg-theme {
+	color: #008931;
+}
+.how-it-work .panel {
+	border-top-left-radius: 60px;
+	border-bottom-left-radius: 60px;
+	color:#fff;
+	font-size: 16px;
+	background: #008931;
+	box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.4);
+	margin-bottom:15px;
+}
+.how-it-work .panel span,
+.how-it-work .panel:hover span  {
+	-webkit-transition: all ease-out 0.3s;
+	-moz-transition: all ease-out 0.3s;
+	-o-transition: all ease-out 0.3s;
+	transition: all ease-out 0.3s;
+}
+.how-it-work .panel:hover span {
+	background: rgba(0,0,0,0.4);
+}
+.how-it-work .panel:nth-child(even) {
+	background: #78c043;
+}
+.how-it-work .panel-body {
+	overflow-y: auto;
+	overflow: visible;
+	min-height: 120px;
+	padding-left: 120px;
+	position: relative;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.how-it-work .panel-body span {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	color: #008931;
+	background: #f6f6f6;
+	text-align: center;	
+	font-size: 36px;
+	font-weight: 800;
+	border-radius: 50%;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+}
+.how-it-work .panel-body span:before {
+	content: "";
+	position: absolute;
+	top: 35px;
+	left: -49px;
+	width: 50px;
+	height: 20px;
+	background: #f6f6f6;
+	box-shadow: 0px 8px 3px -5px rgba(0,0,0,0.2);
+}
+.how-it-work .panel:nth-child(even) span {
+	color: #78c043;
+}
+.how-it-work .step-heading {
+	font-size: 28px;
+	margin-top: 0px;
+	color: rgba(0,0,0,0.3);
+	padding-top:15px;
+}
+.single-course .single-event-list .event-cont {
+    width: 100%;
+    padding: 0px;
+}
+.college-curve {
+ width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+    background-image: -moz-linear-gradient(135deg, #2965CA, #563BC2);
+    background-image: -webkit-linear-gradient(135deg, #2965CA, #563BC2);
+    background-image: linear-gradient(135deg, #2965CA, #563BC2);
+    transform: skewY(-10deg);
+    -webkit-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+
+}
+.college-title{
+	position:absolute;
+	bottom:0px;
+	padding:20px;
+	color:#fff;
+	top: 250px;
+}
+.min-height{
+	height:400px;
+	overflow:hidden;
+	display:flex;
+	
+}
+.logo-abs{
+	position:absolute;
+	
+	padding:6px;
+	color:#fff;
+	top: 190px;
+	left:50px;
+	background:#fff;
+	border-radius:5px;
+}
+.bordr-col-3 .col-lg-3{
+	border:1px solid #ddd;
+}
+.carousel-item:before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+.slider-help .carousel-caption{
+	 top:15%;	
 }

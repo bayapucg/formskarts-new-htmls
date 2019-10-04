@@ -1,3 +1,20 @@
+.custom-list-bef li {
+	font-size:20px;
+	letter-spacing:0.2px;
+
+	margin-left:20px
+}
+.custom-list-bef li:after {
+    content: "\f046";
+	font-family: FontAwesome;
+font-style: normal;
+font-size:20px;
+color:#f7415f;
+position:absolute;
+left:-2px;
+
+
+}
 .pd-0{
 	padding:0px !important
 }
@@ -213,9 +230,7 @@ min-height:400px;
 .orange .pricingTable-header:after{
     border-bottom-color: #e67e22;
 }
-.blue{
-    background: #3498db;
-}
+
 .blue .pricingTable-header:after{
     border-bottom-color: #3498db;
 }
@@ -244,4 +259,41 @@ min-height:400px;
 	height:180px;
 	overflow:hidden;
 	width:100%;
+}
+/* pricing */
+/******************* Pricing Table Demo - 4 *****************/
+.pricingTable4 .pricingTable-signup:before,.pricingTable4:before{content:"";transition:all .3s ease 0s}
+.demo4{background:#E6E6E8;padding:30px 0}
+.pricingTable4{text-align:center;padding-bottom:12px;position:relative}
+.pricingTable4:before{width:98%;height:85%;border-radius:40px;background:#fff;margin:0 auto;position:absolute;box-shadow:0 0 0 10px #fff inset,0 0 0 17px #d7182a inset;bottom:0;left:0;right:0}
+.pricingTable4:hover:before{box-shadow:0 0 0 10px #fff inset,0 0 0 17px #D7182A inset,0 0 60px rgba(0,0,0,.5) inset}
+.pricingTable4 .pricingTable-header{width:110%;position:relative;left:50%;transform:translateX(-50%)}
+.pricingTable4 .pricingTable-header svg{width:94%}
+.pricingTable4 .title{display:inline-block;padding:0 0 10px;margin:0 0 20px;font-size:30px;color:#d7182a;text-transform:uppercase;border-bottom:7px dotted rgba(0,0,0,.2);transition:all .3s ease 0s}
+.pricingTable4:hover .title{padding:0 20px 10px}
+.pricingTable4 .price-value{color:#fff;position:absolute;top:67px;left:50%;transform:translateX(-50%)}
+.price-value .amount{display:block;font-size:50px;font-weight:600}
+.price-value .month{display:block;font-size:16px;font-weight:500;line-height:0;text-transform:lowercase}
+.pricingTable4 .pricing-content{padding:0;margin:0 0 20px;list-style:none;position:relative}
+.pricingTable4 .pricing-content li{font-size:18px;color:#707070;line-height:40px}
+.pricingTable4 .pricingTable-signup{display:inline-block;padding:10px 20px;background:#d7182a;font-size:15px;font-weight:600;color:#fff;letter-spacing:1px;text-transform:uppercase;border-radius:20px 20px 0 0;overflow:hidden;z-index:1;position:relative;transition:all .3s ease 0s}
+.pricingTable4 .pricingTable-signup:hover{color:#d7182a}
+.pricingTable4 .pricingTable-signup:before{width:90%;height:80%;background:#fff;border-radius:20px 20px 0 0;position:absolute;top:150%;left:50%;z-index:-1;opacity:0;transform:translate(-50%,-50%)}
+.pricingTable4 .pricingTable-signup:hover:before{top:50%;opacity:1}
+.pricingTable4.darkblue:before{box-shadow:0 0 0 10px #fff inset,0 0 0 17px #1a6bac inset}
+.pricingTable4.darkblue:hover:before{box-shadow:0 0 0 10px #fff inset,0 0 0 17px #1a6bac inset,0 0 60px rgba(0,0,0,.5) inset}
+.pricingTable4.darkblue .pricingTable-header svg path{fill:#1a6bac}
+.pricingTable4.darkblue .pricingTable-signup{background:#1a6bac}
+.pricingTable4.darkblue .pricingTable-header h3,.pricingTable4.darkblue .pricingTable-signup:hover{color:#1a6bac}
+.pricingTable4.blue:before{box-shadow:0 0 0 10px #fff inset,0 0 0 17px #2998c5 inset}
+.pricingTable4.blue:hover:before{box-shadow:0 0 0 10px #fff inset,0 0 0 17px #2998c5 inset,0 0 60px rgba(0,0,0,.5) inset}
+.pricingTable4.blue .pricingTable-header svg path{fill:#2998c5}
+.pricingTable4.blue .pricingTable-signup{background:#2998c5}
+.pricingTable4.blue .pricingTable-header h3,.pricingTable4.blue .pricingTable-signup:hover{color:#2998c5}
+@media only screen and (max-width:990px){.pricingTable4{margin-bottom:40px}
+}
+@media only screen and (max-width:767px){.pricingTable4 .pricingTable-header{width:102%}
+}
+@media only screen and (max-width:479px){.pricingTable4 .price-value{top:80px}
+.price-value .amount{font-size:40px}
 }
